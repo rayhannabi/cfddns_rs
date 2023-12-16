@@ -1,0 +1,20 @@
+{
+  "api_token": "your_api_token_with_dns_edit_permission",
+  "zone_id": "your_zone_id",
+  "subdomains": [
+    {
+      "name": "",
+      "a": true,
+      "aaaa": true,
+      "proxied": true,
+      "ttl": 300
+    },
+    {
+      "name": "foo",
+      "a": true,
+      "aaaa": false,
+      "proxied": false,
+      "ttl": 300
+    }
+  ]
+}
